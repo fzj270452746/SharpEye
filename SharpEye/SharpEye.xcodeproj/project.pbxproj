@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2874CE822ED1B7830076A641 /* Stereondat.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2874CE812ED1B7830076A641 /* Stereondat.xcframework */; };
+		73E45F399906F450535BA4E8 /* Pods_SharpEye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A24E9555F65EB765508EACB7 /* Pods_SharpEye.framework */; };
+		FEDE4C122EC8C3860044AD09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEDE4C072EC8C3860044AD09 /* Assets.xcassets */; };
+		FEDE4C142EC8C3860044AD09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEDE4C0A2EC8C3860044AD09 /* LaunchScreen.storyboard */; };
+		FEDE4C152EC8C3860044AD09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEDE4C0C2EC8C3860044AD09 /* Main.storyboard */; };
+		FEDE4C182EC8C3860044AD09 /* SharpEye.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEDE4C0E2EC8C3860044AD09 /* SharpEye.xcdatamodeld */; };
+		FEDE4C2F2EC8CA4B0044AD09 /* BaseModalController+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDE4C1F2EC8CA4B0044AD09 /* BaseModalController+Helpers.swift */; };
+		FEDE4C302EC8CA4B0044AD09 /* LoreCodexController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDE4C262EC8CA4B0044AD09 /* LoreCodexController+UI.swift */; };
+		FEDE4C312EC8CA4B0044AD09 /* MnemonicArchiveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDE4C272EC8CA4B0044AD09 /* MnemonicArchiveController.swift */; };
+		FEDE4C322EC8CA4B0044AD09 /* MnemonicArchiveController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDE4C282EC8CA4B0044AD09 /* MnemonicArchiveController+UI.swift */; };
+		FEDE4C332EC8CA4B0044AD09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDE4C292EC8CA4B0044AD09 /* SceneDelegate.swift */; };
+		FEDE4C342EC8CA4B0044AD09 /* LoreCodexController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDE4C252EC8CA4B0044AD09 /* LoreCodexController.swift */; };
+		FEDE4C362EC8CA4B0044AD09 /* BaseViewController+Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDE4C212EC8CA4B0044AD09 /* BaseViewController+Styling.swift */; };
+		FEDE4C372EC8CA4B0044AD09 /* BaseModalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDE4C1E2EC8CA4B0044AD09 /* BaseModalController.swift */; };
+		FEDE4C382EC8CA4B0044AD09 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDE4C202EC8CA4B0044AD09 /* BaseViewController.swift */; };
+		FEDE4C392EC8CA4B0044AD09 /* GameLedger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDE4C242EC8CA4B0044AD09 /* GameLedger.swift */; };
+		FEDE4C3C2EC8CA4B0044AD09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDE4C1C2EC8CA4B0044AD09 /* AppDelegate.swift */; };
+		FEDE4C3D2EC8CA4B0044AD09 /* ChrysanthemumVestibuleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDE4C222EC8CA4B0044AD09 /* ChrysanthemumVestibuleController.swift */; };
+		FEDE4C3F2EC8CA4B0044AD09 /* AureateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDE4C1D2EC8CA4B0044AD09 /* AureateButton.swift */; };
+		FEDE4C412EC8CA4B0044AD09 /* ChrysanthemumVestibuleController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDE4C232EC8CA4B0044AD09 /* ChrysanthemumVestibuleController+UI.swift */; };
+		FEDE4C4E2EC8DD610044AD09 /* SharpEyeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDE4C482EC8DD610044AD09 /* SharpEyeModel.swift */; };
+		FEDE4C4F2EC8DD610044AD09 /* VermilionArcadeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDE4C492EC8DD610044AD09 /* VermilionArcadeController.swift */; };
+		FEDE4C502EC8DD610044AD09 /* VermilionArcadeController+Gameplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDE4C4A2EC8DD610044AD09 /* VermilionArcadeController+Gameplay.swift */; };
+		FEDE4C512EC8DD610044AD09 /* VermilionArcadeController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDE4C4B2EC8DD610044AD09 /* VermilionArcadeController+UI.swift */; };
+		FEDE4C522EC8DD610044AD09 /* ZephyrTileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDE4C4C2EC8DD610044AD09 /* ZephyrTileCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2874CE812ED1B7830076A641 /* Stereondat.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Stereondat.xcframework; sourceTree = "<group>"; };
+		9479D0C0647EF91BD0A78F04 /* Pods-SharpEye.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharpEye.release.xcconfig"; path = "Target Support Files/Pods-SharpEye/Pods-SharpEye.release.xcconfig"; sourceTree = "<group>"; };
+		A24E9555F65EB765508EACB7 /* Pods_SharpEye.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SharpEye.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B67B68673A15DE22E3D7860F /* Pods-SharpEye.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharpEye.debug.xcconfig"; path = "Target Support Files/Pods-SharpEye/Pods-SharpEye.debug.xcconfig"; sourceTree = "<group>"; };
+		FEDE4BEB2EC8C36D0044AD09 /* SharpEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharpEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEDE4C072EC8C3860044AD09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEDE4C082EC8C3860044AD09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEDE4C092EC8C3860044AD09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEDE4C0B2EC8C3860044AD09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEDE4C112EC8C3860044AD09 /* SharpEye.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SharpEye.xcdatamodel; sourceTree = "<group>"; };
+		FEDE4C1C2EC8CA4B0044AD09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEDE4C1D2EC8CA4B0044AD09 /* AureateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AureateButton.swift; sourceTree = "<group>"; };
+		FEDE4C1E2EC8CA4B0044AD09 /* BaseModalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModalController.swift; sourceTree = "<group>"; };
+		FEDE4C1F2EC8CA4B0044AD09 /* BaseModalController+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BaseModalController+Helpers.swift"; sourceTree = "<group>"; };
+		FEDE4C202EC8CA4B0044AD09 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		FEDE4C212EC8CA4B0044AD09 /* BaseViewController+Styling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BaseViewController+Styling.swift"; sourceTree = "<group>"; };
+		FEDE4C222EC8CA4B0044AD09 /* ChrysanthemumVestibuleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChrysanthemumVestibuleController.swift; sourceTree = "<group>"; };
+		FEDE4C232EC8CA4B0044AD09 /* ChrysanthemumVestibuleController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChrysanthemumVestibuleController+UI.swift"; sourceTree = "<group>"; };
+		FEDE4C242EC8CA4B0044AD09 /* GameLedger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLedger.swift; sourceTree = "<group>"; };
+		FEDE4C252EC8CA4B0044AD09 /* LoreCodexController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoreCodexController.swift; sourceTree = "<group>"; };
+		FEDE4C262EC8CA4B0044AD09 /* LoreCodexController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoreCodexController+UI.swift"; sourceTree = "<group>"; };
+		FEDE4C272EC8CA4B0044AD09 /* MnemonicArchiveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MnemonicArchiveController.swift; sourceTree = "<group>"; };
+		FEDE4C282EC8CA4B0044AD09 /* MnemonicArchiveController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MnemonicArchiveController+UI.swift"; sourceTree = "<group>"; };
+		FEDE4C292EC8CA4B0044AD09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FEDE4C482EC8DD610044AD09 /* SharpEyeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharpEyeModel.swift; sourceTree = "<group>"; };
+		FEDE4C492EC8DD610044AD09 /* VermilionArcadeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VermilionArcadeController.swift; sourceTree = "<group>"; };
+		FEDE4C4A2EC8DD610044AD09 /* VermilionArcadeController+Gameplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VermilionArcadeController+Gameplay.swift"; sourceTree = "<group>"; };
+		FEDE4C4B2EC8DD610044AD09 /* VermilionArcadeController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VermilionArcadeController+UI.swift"; sourceTree = "<group>"; };
+		FEDE4C4C2EC8DD610044AD09 /* ZephyrTileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZephyrTileCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEDE4BE82EC8C36D0044AD09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2874CE822ED1B7830076A641 /* Stereondat.xcframework in Frameworks */,
+				73E45F399906F450535BA4E8 /* Pods_SharpEye.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E9439FD4B2AA4655C39DB72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A24E9555F65EB765508EACB7 /* Pods_SharpEye.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE2D3A524B67D5D1A0EAB25B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B67B68673A15DE22E3D7860F /* Pods-SharpEye.debug.xcconfig */,
+				9479D0C0647EF91BD0A78F04 /* Pods-SharpEye.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FEDE4BE22EC8C36D0044AD09 = {
+			isa = PBXGroup;
+			children = (
+				FEDE4C102EC8C3860044AD09 /* SharpEye */,
+				FEDE4BEC2EC8C36D0044AD09 /* Products */,
+				CE2D3A524B67D5D1A0EAB25B /* Pods */,
+				0E9439FD4B2AA4655C39DB72 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FEDE4BEC2EC8C36D0044AD09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEDE4BEB2EC8C36D0044AD09 /* SharpEye.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEDE4C102EC8C3860044AD09 /* SharpEye */ = {
+			isa = PBXGroup;
+			children = (
+				FEDE4C072EC8C3860044AD09 /* Assets.xcassets */,
+				FEDE4C082EC8C3860044AD09 /* Info.plist */,
+				FEDE4C0A2EC8C3860044AD09 /* LaunchScreen.storyboard */,
+				2874CE812ED1B7830076A641 /* Stereondat.xcframework */,
+				FEDE4C0C2EC8C3860044AD09 /* Main.storyboard */,
+				FEDE4C0E2EC8C3860044AD09 /* SharpEye.xcdatamodeld */,
+				FEDE4C1C2EC8CA4B0044AD09 /* AppDelegate.swift */,
+				FEDE4C292EC8CA4B0044AD09 /* SceneDelegate.swift */,
+				FEDE4C472EC8DD570044AD09 /* AButton */,
+				FEDE4C422EC8DD290044AD09 /* BaseModelView */,
+				FEDE4C432EC8DD320044AD09 /* Chry */,
+				FEDE4C532EC8DD6A0044AD09 /* GameLedger */,
+				FEDE4C442EC8DD390044AD09 /* Lore */,
+				FEDE4C452EC8DD3D0044AD09 /* Mne */,
+				FEDE4C4D2EC8DD610044AD09 /* SharpVermZep */,
+			);
+			path = SharpEye;
+			sourceTree = "<group>";
+		};
+		FEDE4C422EC8DD290044AD09 /* BaseModelView */ = {
+			isa = PBXGroup;
+			children = (
+				FEDE4C1E2EC8CA4B0044AD09 /* BaseModalController.swift */,
+				FEDE4C1F2EC8CA4B0044AD09 /* BaseModalController+Helpers.swift */,
+				FEDE4C202EC8CA4B0044AD09 /* BaseViewController.swift */,
+				FEDE4C212EC8CA4B0044AD09 /* BaseViewController+Styling.swift */,
+			);
+			path = BaseModelView;
+			sourceTree = "<group>";
+		};
+		FEDE4C432EC8DD320044AD09 /* Chry */ = {
+			isa = PBXGroup;
+			children = (
+				FEDE4C222EC8CA4B0044AD09 /* ChrysanthemumVestibuleController.swift */,
+				FEDE4C232EC8CA4B0044AD09 /* ChrysanthemumVestibuleController+UI.swift */,
+			);
+			path = Chry;
+			sourceTree = "<group>";
+		};
+		FEDE4C442EC8DD390044AD09 /* Lore */ = {
+			isa = PBXGroup;
+			children = (
+				FEDE4C252EC8CA4B0044AD09 /* LoreCodexController.swift */,
+				FEDE4C262EC8CA4B0044AD09 /* LoreCodexController+UI.swift */,
+			);
+			path = Lore;
+			sourceTree = "<group>";
+		};
+		FEDE4C452EC8DD3D0044AD09 /* Mne */ = {
+			isa = PBXGroup;
+			children = (
+				FEDE4C272EC8CA4B0044AD09 /* MnemonicArchiveController.swift */,
+				FEDE4C282EC8CA4B0044AD09 /* MnemonicArchiveController+UI.swift */,
+			);
+			path = Mne;
+			sourceTree = "<group>";
+		};
+		FEDE4C472EC8DD570044AD09 /* AButton */ = {
+			isa = PBXGroup;
+			children = (
+				FEDE4C1D2EC8CA4B0044AD09 /* AureateButton.swift */,
+			);
+			path = AButton;
+			sourceTree = "<group>";
+		};
+		FEDE4C4D2EC8DD610044AD09 /* SharpVermZep */ = {
+			isa = PBXGroup;
+			children = (
+				FEDE4C482EC8DD610044AD09 /* SharpEyeModel.swift */,
+				FEDE4C492EC8DD610044AD09 /* VermilionArcadeController.swift */,
+				FEDE4C4A2EC8DD610044AD09 /* VermilionArcadeController+Gameplay.swift */,
+				FEDE4C4B2EC8DD610044AD09 /* VermilionArcadeController+UI.swift */,
+				FEDE4C4C2EC8DD610044AD09 /* ZephyrTileCell.swift */,
+			);
+			path = SharpVermZep;
+			sourceTree = "<group>";
+		};
+		FEDE4C532EC8DD6A0044AD09 /* GameLedger */ = {
+			isa = PBXGroup;
+			children = (
+				FEDE4C242EC8CA4B0044AD09 /* GameLedger.swift */,
+			);
+			path = GameLedger;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEDE4BEA2EC8C36D0044AD09 /* SharpEye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEDE4C012EC8C36F0044AD09 /* Build configuration list for PBXNativeTarget "SharpEye" */;
+			buildPhases = (
+				01FC847BFD865B799A26385D /* [CP] Check Pods Manifest.lock */,
+				FEDE4BE72EC8C36D0044AD09 /* Sources */,
+				FEDE4BE82EC8C36D0044AD09 /* Frameworks */,
+				FEDE4BE92EC8C36D0044AD09 /* Resources */,
+				85276A74C591F87D6AA63CBF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SharpEye;
+			productName = SharpEye;
+			productReference = FEDE4BEB2EC8C36D0044AD09 /* SharpEye.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEDE4BE32EC8C36D0044AD09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					FEDE4BEA2EC8C36D0044AD09 = {
+						CreatedOnToolsVersion = 16.3;
+						LastSwiftMigration = 1630;
+					};
+				};
+			};
+			buildConfigurationList = FEDE4BE62EC8C36D0044AD09 /* Build configuration list for PBXProject "SharpEye" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEDE4BE22EC8C36D0044AD09;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FEDE4BEC2EC8C36D0044AD09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEDE4BEA2EC8C36D0044AD09 /* SharpEye */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEDE4BE92EC8C36D0044AD09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDE4C122EC8C3860044AD09 /* Assets.xcassets in Resources */,
+				FEDE4C142EC8C3860044AD09 /* LaunchScreen.storyboard in Resources */,
+				FEDE4C152EC8C3860044AD09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01FC847BFD865B799A26385D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SharpEye-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85276A74C591F87D6AA63CBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SharpEye/Pods-SharpEye-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SharpEye/Pods-SharpEye-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SharpEye/Pods-SharpEye-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEDE4BE72EC8C36D0044AD09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDE4C182EC8C3860044AD09 /* SharpEye.xcdatamodeld in Sources */,
+				FEDE4C2F2EC8CA4B0044AD09 /* BaseModalController+Helpers.swift in Sources */,
+				FEDE4C302EC8CA4B0044AD09 /* LoreCodexController+UI.swift in Sources */,
+				FEDE4C312EC8CA4B0044AD09 /* MnemonicArchiveController.swift in Sources */,
+				FEDE4C4E2EC8DD610044AD09 /* SharpEyeModel.swift in Sources */,
+				FEDE4C4F2EC8DD610044AD09 /* VermilionArcadeController.swift in Sources */,
+				FEDE4C502EC8DD610044AD09 /* VermilionArcadeController+Gameplay.swift in Sources */,
+				FEDE4C512EC8DD610044AD09 /* VermilionArcadeController+UI.swift in Sources */,
+				FEDE4C522EC8DD610044AD09 /* ZephyrTileCell.swift in Sources */,
+				FEDE4C322EC8CA4B0044AD09 /* MnemonicArchiveController+UI.swift in Sources */,
+				FEDE4C332EC8CA4B0044AD09 /* SceneDelegate.swift in Sources */,
+				FEDE4C342EC8CA4B0044AD09 /* LoreCodexController.swift in Sources */,
+				FEDE4C362EC8CA4B0044AD09 /* BaseViewController+Styling.swift in Sources */,
+				FEDE4C372EC8CA4B0044AD09 /* BaseModalController.swift in Sources */,
+				FEDE4C382EC8CA4B0044AD09 /* BaseViewController.swift in Sources */,
+				FEDE4C392EC8CA4B0044AD09 /* GameLedger.swift in Sources */,
+				FEDE4C3C2EC8CA4B0044AD09 /* AppDelegate.swift in Sources */,
+				FEDE4C3D2EC8CA4B0044AD09 /* ChrysanthemumVestibuleController.swift in Sources */,
+				FEDE4C3F2EC8CA4B0044AD09 /* AureateButton.swift in Sources */,
+				FEDE4C412EC8CA4B0044AD09 /* ChrysanthemumVestibuleController+UI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FEDE4C0A2EC8C3860044AD09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEDE4C092EC8C3860044AD09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FEDE4C0C2EC8C3860044AD09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEDE4C0B2EC8C3860044AD09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEDE4C022EC8C36F0044AD09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B67B68673A15DE22E3D7860F /* Pods-SharpEye.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SharpEye/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mahjong SharpEye";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SharpEye.SHE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FEDE4C032EC8C36F0044AD09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9479D0C0647EF91BD0A78F04 /* Pods-SharpEye.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SharpEye/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mahjong SharpEye";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SharpEye.SHE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FEDE4C042EC8C36F0044AD09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEDE4C052EC8C36F0044AD09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEDE4BE62EC8C36D0044AD09 /* Build configuration list for PBXProject "SharpEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEDE4C042EC8C36F0044AD09 /* Debug */,
+				FEDE4C052EC8C36F0044AD09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEDE4C012EC8C36F0044AD09 /* Build configuration list for PBXNativeTarget "SharpEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEDE4C022EC8C36F0044AD09 /* Debug */,
+				FEDE4C032EC8C36F0044AD09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FEDE4C0E2EC8C3860044AD09 /* SharpEye.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FEDE4C112EC8C3860044AD09 /* SharpEye.xcdatamodel */,
+			);
+			currentVersion = FEDE4C112EC8C3860044AD09 /* SharpEye.xcdatamodel */;
+			path = SharpEye.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FEDE4BE32EC8C36D0044AD09 /* Project object */;
+}
